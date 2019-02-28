@@ -20,7 +20,7 @@ In assets/main.js you will find the function for data validation and requests. I
 
 ```
 $(document).on('submit', '#formIdHere', function(e) {
-    FormToAjax(new FormData(this), 'route from backend to send the request', 'the method = POST/GET', e->parameter for preventing default action, 'register->index for errors','/base_href/');
+    FormToAjax(new FormData(this), 'route from backend to send the request', 'the method = POST/GET', e->parameter for preventing default action, 'register->index for errors','/redirect_url/');
 });   
 
 ```
